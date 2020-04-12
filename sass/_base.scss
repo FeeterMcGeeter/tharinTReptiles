@@ -19,6 +19,25 @@ $bp-medium: 56.25em; // 900px
 $bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; // 500px
 
+// MIXINS 
+@mixin flexRowCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexColCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin gridCenter {
+    display: grid;
+    place-items: center;
+}
+
 // ========== GLOBAL RESET ==========
 * {
     margin: 0;
@@ -41,4 +60,22 @@ body {
     font-family: "Monsterrat", sans-serif;
     font-weight: 400;
     line-height: 1.6;
+}
+
+// ========== TYPOGRAPHY HEADERS ==========
+.heading-1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.heading-2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.heading-3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
 }

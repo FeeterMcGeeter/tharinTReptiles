@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="imgs/favicon.ico">
+    <!-- GOOGLE FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" />
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/f98cc017d1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Tharin T Reptiles | Welcome</title>
 </head>
@@ -14,13 +17,13 @@
         <!-- NAVIGATION TOP -->
         <div class="header__top">
             <!-- LOGO -->
-            <div class="header__top--logo"></div>
-            <!-- CART ICON -->
-            <div class="header__top--cart">
-                <svg class="social-icon">
-                    <use xlink:href="imgs/sprite.svg#icon-cart"></use>
-                </svg>
+            <div class="header__top--logo">
+                <img src="imgs/TTRBlueLogo.png" alt="Website Logo">
             </div>
+            <!-- CART ICON -->
+            <a class="header__top--cart">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
         </div>
         <!-- NAVIGATION LINKS -->
         <nav class="header__nav">
@@ -32,18 +35,20 @@
                     <a href="#care" class="nav-link">Care</a>
                 </li>
                 <li class="header__nav--list-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
                 </li>
                 <li class="header__nav--list-item">
                     <a href="#contact" class="nav-link">Contact Me</a>
                 </li>
             </ul>
         </nav>
-        <!-- HERO / TITLE -->
-        <div class="header__hero">
-            <h1 class="header__hero--title">Tharin T Reptiles</h1>
+    </header>
+    <!-- HERO / TITLE -->
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__content--title">Tharin T Reptiles</h1>
 
-            <p class="header__hero--description">
+            <p class="hero__content--description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, alias.
             </p>
 
@@ -55,7 +60,7 @@
                 View Reptiles
             </a>
         </div>
-    </header>
+    </section>
     <!-- ABOUT SECTION -->
     <section class="about" id="about">
         <!-- ABOUT MAIN HEADING -->
@@ -83,9 +88,103 @@
             </p>
         </div>
     </section>
+    <!-- IMAGE GALLERY -->
+    <section class="gallery" id="gallery">
+        <h1 class="gallery__title heading-1">Gallery</h1>
+        <figure class="gallery__item gallery__item--1">
+            <img src="imgs/gallery1.jpeg" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+            <img src="imgs/gallery2.jpeg" alt="Gallery image 2" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+            <img src="imgs/gallery3.jpeg" alt="Gallery image 3" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+            <img src="imgs/gallery4.jpeg" alt="Gallery image 4" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+            <img src="imgs/gallery5.jpeg" alt="Gallery image 5" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--6">
+            <img src="imgs/gallery6.jpeg" alt="Gallery image 6" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--7">
+            <img src="imgs/gallery7.jpeg" alt="Gallery image 7" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--8">
+            <img src="imgs/gallery8.jpeg" alt="Gallery image 8" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--9">
+            <img src="imgs/gallery9.jpeg" alt="Gallery image 9" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--10">
+            <img src="imgs/gallery10.jpeg" alt="Gallery image 10" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--11">
+            <img src="imgs/gallery11.jpeg" alt="Gallery image 11" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--12">
+            <img src="imgs/gallery12.jpeg" alt="Gallery image 12" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--13">
+            <img src="imgs/gallery13.jpeg" alt="Gallery image 13" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--14">
+            <img src="imgs/gallery14.jpeg" alt="Gallery image 14" class="gallery__img" />
+        </figure>
+    </section>
     <!-- REPTILES SECTION -->
-    <section class="reptiles">
+    <section class="reptiles" id="reptiles">
         <h1 class="reptiles__heading heading-1">Reptiles</h1>
+        <!-- PREVIOUS BUTTON -->
+        <i class="fas fa-chevron-left"></i>
+        <!-- NEXT BUTTON -->
+        <i class="fas fa-chevron-right"></i>
+        <!-- REPTILE CARDS -->
+        <div class="card">
+            <div class="card__slider">
+                <div class="card__slider--item">
+                    <img src="imgs/snake1.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake2.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake3.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake4.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake5.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake6.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake7.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake8.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake9.jpeg" alt="Snake Image" />
+                </div>
+
+                <div class="card__slider--item">
+                    <img src="imgs/snake10.jpeg" alt="Snake Image" />
+                </div>
+            </div>
+        </div>
     </section>
     <!-- CARE SECTION -->
     <section class="care">
@@ -105,35 +204,31 @@
     <footer class="footer">
         <!-- BACK TO TOP OF PAGE -->
         <div class="footer__btnToTop">
-            <svg class="footer__btnToTop--icon">
-                <use xlink:href="imgs/sprite.svg#icon-arrow-up2"></use>
-            </svg>
+            <a href="#home">
+                <i class="fas fa-chevron-up"></i>
+            </a>
         </div>
         <!-- CONTACT INFO -->
         <div class="footer__contact">
-            <div class="footer__contact--logo"></div>
+            <div class="footer__contact--logo">
+                <img src="imgs/TTRColorLogo.png" alt="Website Logo">
+            </div>
 
             <div class="footer__contact--info">
                 <div class="footer__contact--info-address contact">
-                    <svg class="contact-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-location"></use>
-                    </svg>
+                    <i class="fas fa-map-marker-alt"></i>
 
                     <p>Arlington, TX 76006</p>
                 </div>
 
                 <div class="footer__contact--info-phone contact">
-                    <svg class="contact-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-phone"></use>
-                    </svg>
+                    <i class="fas fa-phone-alt"></i>
 
                     <p>888-888-8888</p>
                 </div>
 
                 <div class="footer__contact--info-email contact">
-                    <svg class="contact-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-mail"></use>
-                    </svg>
+                    <i class="fas fa-envelope"></i>
 
                     <p>reptiles@reptiles.com</p>
                 </div>
@@ -145,27 +240,19 @@
 
             <div class="footer__follow--list">
                 <a href="#" class="footer__follow--list-icons">
-                    <svg class="footer__follow--social-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-facebook"></use>
-                    </svg>
+                    <i class="fab fa-facebook-f"></i>
                 </a>
 
                 <a href="#" class="footer__follow--list-icons">
-                    <svg class="footer__follow--social-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-instagram"></use>
-                    </svg>
+                    <i class="fab fa-instagram"></i>
                 </a>
 
                 <a href="#" class="footer__follow--list-icons">
-                    <svg class="footer__follow--social-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-twitter"></use>
-                    </svg>
+                    <i class="fab fa-twitter"></i>
                 </a>
 
                 <a href="#" class="footer__follow--list-icons">
-                    <svg class="footer__follow--social-icon">
-                        <use xlink:href="imgs/sprite.svg#icon-youtube"></use>
-                    </svg>
+                    <i class="fab fa-youtube"></i>
                 </a>
             </div>
         </div>
@@ -196,5 +283,10 @@
             <p>&copy; 2020 Tharin T Reptiles. Site managed by Jeffrey Davis</p>
         </div>
     </footer>
+    <!-- JQUERY CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <!-- SLICK CDN -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/tharin.js"></script>
 </body>
 </html>

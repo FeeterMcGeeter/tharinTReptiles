@@ -1,0 +1,95 @@
+.footer {
+    background-color: $color-dark;
+    height: 50rem;
+    
+    display: grid;
+    grid-template-columns: 15rem repeat(3, 1fr) 15rem;
+    grid-template-rows: repeat(3, 1fr);
+
+    &__btnToTop {
+        background-color: $color-primary-light;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        grid-column: 3 / 4;
+
+        a {
+            
+        }
+
+        i {
+            color: $color-dark;
+            font-size: 4rem;
+        }
+    }
+
+    &__contact {
+
+        &--logo {
+
+        }
+
+        &--info {
+
+        }
+
+        .contact {
+
+            i {
+                color: $color-primary-light;
+            }
+
+            p {
+                color: $color-secondary;
+            }
+        }
+    }
+
+    &__follow {
+
+        &--heading {
+            color: $color-secondary;
+        }
+
+        &--list {
+
+
+            &-icons {
+
+            }
+
+            i {
+                color: $color-primary-light;
+            }
+        }
+    }
+
+    &__support {
+
+
+        &--heading {
+            color: $color-primary-light;
+        }
+
+        &--list {
+
+
+            &-item {
+
+            }
+
+            .item-link {
+                font-weight: 700;
+                color: $color-secondary;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__copyright {
+        font-size: 1.4rem;
+        color: $color-secondary;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+}
