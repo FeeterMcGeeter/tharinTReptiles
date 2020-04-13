@@ -20,7 +20,7 @@ $bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; // 500px
 
 // MIXINS 
-@mixin flexRowCenter {
+@mixin flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,7 @@ body {
 }
 
 .heading-3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
